@@ -1,0 +1,32 @@
+{
+  "name": "prosperworks",
+  "version": "1.0.0",
+  "description": "ProsperWorks client in Node.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cigolpl/prosperworks.git"
+  },
+  "keywords": [
+    "prosperworks",
+    "node.js",
+    "crm",
+    "client"
+  ],
+  "author": "Mateusz Rzepa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cigolpl/prosperworks/issues"
+  },
+  "homepage": "https://github.com/cigolpl/prosperworks#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4"
+  }
+}
