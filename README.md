@@ -1,6 +1,6 @@
 # ProsperWorks Node.js client
 
-This ProsperWorks library provides convenient access to ProsperWorks API from Node.js
+This ProsperWorks library provides convenient access to ProsperWorks API from Node.js. Original API https://developer.prosperworks.com
 
 ## Installation
 
@@ -18,12 +18,8 @@ const prosperworks = require('prosperworks')({
 });
 
 // using async / await (native in Node.js v8.x)
-/*
-(async function() {
-  var result = await prosperworks.companies.list();
-  console.log(JSON.stringify(result, null, 2));
-})();
-*/
+var result = await prosperworks.companies.list();
+console.log(JSON.stringify(result, null, 2));
 
 // or using with promises
 prosperworks.companies.list()
@@ -32,3 +28,7 @@ prosperworks.companies.list()
 })
 ```
 
+## Todo
+
+- add simple api documentation and more examples
+- ensure it's handling errors and edge cases properly
